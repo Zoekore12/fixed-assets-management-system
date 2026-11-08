@@ -78,7 +78,7 @@ const sendVerificationCode = async (req, res) => {
                     ">
                     <img
                         src="cid:lasglogo"
-                        alt="Ministry logo"
+                        alt="lagos logo"
                         width="90"
                         style="
                         display: block;
@@ -94,7 +94,7 @@ const sendVerificationCode = async (req, res) => {
                         color: #163b65;
                         font-size: 20px;
                     ">
-                        Ministry Fixed Assets Management System
+                        Fixed Assets Management System
                     </h2>
 
                     <p style="color: #64748b; margin-bottom: 0;">
@@ -151,7 +151,7 @@ const sendVerificationCode = async (req, res) => {
                     color: #64748b;
                     font-size: 12px;
                     ">
-                    Ministry Fixed Assets Management System
+                    Fixed Assets Management System
                     </div>
                 </div>
                 </div>
