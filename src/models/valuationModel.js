@@ -370,7 +370,9 @@ const getValuationsByUser = async (userId, role) => {
       break;
 
     default: {
-      const error = new Error("You are not authorized to view valuations");
+      const error = new Error(
+        "You are not authorized to view valuations"
+      );
       error.statusCode = 403;
       throw error;
     }

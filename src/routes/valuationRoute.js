@@ -65,7 +65,7 @@ router.use(authenticate);
  *         description: Internal server error
 */
 // View valuations
-router.get("/", getAll);
+router.get("/",authorizeRoles("Administrator"), getAll);
 /**
  * @swagger
  * /valuation/my-valuations:
