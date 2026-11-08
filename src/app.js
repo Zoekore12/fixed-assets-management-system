@@ -105,7 +105,7 @@ app.get("/api-docs.json", (req, res) => {
 
 /**
  * @swagger
- * /app:
+ * /:
  *   get:
  *     tags:
  *       - System
@@ -115,7 +115,7 @@ app.get("/api-docs.json", (req, res) => {
  *         description: API is running successfully.
  */
 
-app.get("/app", (req, res) => {
+app.get("/", (req, res) => {
   res.json({
     success: true,
     message: "Fixed Asset Management API is running",
